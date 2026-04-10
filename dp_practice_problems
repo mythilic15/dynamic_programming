@@ -14,3 +14,11 @@ Output: 2  (0 → 1 → 4)
 
 Input:  [3, 2, 1, 0, 4]
 Output: -1  (stuck at index 3)
+
+### Exercise 3: Count Array Sum Paths
+Given an array of positive integers, count the number of ways to reach the last index starting from index 0, where at each step you can jump 1 or 2 positions forward.
+
+```
+Input:  nums = [1, 2, 3, 4, 5]  (5 elements, indices 0..4 → 4 steps)
+Output: 8
+```
