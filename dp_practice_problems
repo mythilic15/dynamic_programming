@@ -63,3 +63,28 @@ Input:  n = 13
 Output: 2  (4 + 9)
 ```
 
+Tree:
+
+### Problem 1 Level Order Traversal (LeetCode 102)
+Return node values grouped by level as a list of lists.
+
+- Input: `[3,9,20,null,null,15,7]`
+- Output: `[[3],[9,20],[15,7]]`
+
+### Exercise 2: Lowest Common Ancestor (LCA)
+Given a BST and two nodes p and q, find their lowest common ancestor.
+
+```
+BST:        6
+           / \
+          2   8
+         / \ / \
+        0  4 7  9
+          / \
+         3   5
+
+LCA(2, 8) = 6
+LCA(2, 4) = 2
+```
+
+
